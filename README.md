@@ -1,5 +1,5 @@
-﻿# PlutoRover
-![Pluto Rover](https://github.com/erossini/PlutoRover/Images/blob/master/PlutoRover.jpg)
+# PlutoRover
+![Pluto Rover](https://github.com/erossini/PlutoRover/blob/master/Images/PlutoRover.jpg)
 After NASA’s New Horizon successfully flew past Pluto, they now plan to land a Pluto Rover to further investigate the surface.
 
 You are responsible for developing an API that will allow the Rover to move around the planet. 
@@ -24,3 +24,8 @@ Given the command **FFRFF** would put the rover at 2,2 facing East.
 - Start simple. For instance you might start with a test that if at 0,0,N with command F,  the robots position should now be 0,1,N.
 - Don’t worry about bounds checking until step 3 (implementing wrapping).
 - Don't start up/use the debugger, use your tests to implement the kata. If you find that  you run into issues, use your tests to assert on the inner workings of the rover (as  opposed to starting the debugger). 
+
+## Implementations
+
+## ConsoleApp
+![Pluto Rover ConsoleApp](https://github.com/erossini/PlutoRover/blob/master/Images/Screenshot.PNG)
