@@ -26,8 +26,13 @@ Given the command **FFRFF** would put the rover at 2,2 facing East.
 - Don't start up/use the debugger, use your tests to implement the kata. If you find that  you run into issues, use your tests to assert on the inner workings of the rover (as  opposed to starting the debugger). 
 
 ## Implementations
-Just a quick view about my implementation of Pluto Rover.
+Just a quick view about my implementation of the Pluto Rover. In `PlutoRover.Library` there is the implementation of the logic for the rover. This library implements `PlutoRover.Abstraction`: here I define all **interfaces** for the library. Why?
+
 ![Library schema](https://github.com/erossini/PlutoRover/blob/master/Images/LibrarySchema.PNG)
+
+An `interface` is a `contract` between itself and any class that implements it. This contract states that any class that implements the interface will implement the interface's `properties`, `methods` and/or `events`. _An interface contains no implementation, only the signatures of the functionality the interface provides. An interface can contain signatures of methods, properties, indexers & events._
+
+Using interface based design concept provides `loose coupling`, `component-based programming`, `easier maintainability`, makes code base more `scalable` and makes code `reuse` much more `accessible` because implementation is separated from the interface. Interfaces add a plug and play like architecture into an applications. Interfaces help define a contract (agreement or blueprint, however you chose to define it), between your application and other objects. This indicates what sort of methods, properties and events are exposed by an object.
 
 ### Abstractions
 
