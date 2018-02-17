@@ -16,12 +16,16 @@ namespace PlutoRover.Library.Factories
             switch (command)
             {
                 case 'F':
+                case 'f':
                     return new Forward();
                 case 'B':
+                case 'b':
                     return new Reverse();
                 case 'R':
+                case 'r':
                     return new RotateRight();
                 case 'L':
+                case 'l':
                     return new RotateLeft();
                 default:
                     return new NullCommand();
