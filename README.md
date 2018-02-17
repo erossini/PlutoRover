@@ -19,13 +19,15 @@ Here is an example:
 Let's say that the rover is located at 0,0 facing North on a 100x100 grid.
 Given the command **FFRFF** would put the rover at 2,2 facing East.
 
-## Tips!
+### Tips!
 - Don't worry about the structure of the rover. Let the structure evolve as you add more  tests.
 - Start simple. For instance you might start with a test that if at 0,0,N with command F,  the robots position should now be 0,1,N.
 - Don’t worry about bounds checking until step 3 (implementing wrapping).
 - Don't start up/use the debugger, use your tests to implement the kata. If you find that  you run into issues, use your tests to assert on the inner workings of the rover (as  opposed to starting the debugger). 
 
 ## Implementations
+
+### Library
 
 ### Tests
 ![Tests results](https://github.com/erossini/PlutoRover/blob/master/Images/TestExample.PNG)
