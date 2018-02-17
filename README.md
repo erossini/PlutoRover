@@ -56,4 +56,6 @@ In the root folder:
 - **RobotQueueCommandRunner** runs all command for the robot
 
 ### ConsoleApp
+Just for fun, I create a simple console application to play with the rover.
+
 ![Pluto Rover ConsoleApp](https://github.com/erossini/PlutoRover/blob/master/Images/Screenshot.PNG)
