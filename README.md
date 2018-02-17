@@ -26,6 +26,10 @@ Given the command **FFRFF** would put the rover at 2,2 facing East.
 - Don't start up/use the debugger, use your tests to implement the kata. If you find that  you run into issues, use your tests to assert on the inner workings of the rover (as  opposed to starting the debugger). 
 
 ## Implementations
+Just a quick view about my implementation of Pluto Rover.
+![Library schema](https://github.com/erossini/PlutoRover/blob/master/Images/LibrarySchema.PNG)
+
+### Abstractions
 
 ### Library
 
