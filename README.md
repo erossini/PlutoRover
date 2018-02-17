@@ -26,7 +26,7 @@ Given the command **FFRFF** would put the rover at 2,2 facing East.
 - Don't start up/use the debugger, use your tests to implement the kata. If you find that  you run into issues, use your tests to assert on the inner workings of the rover (as  opposed to starting the debugger). 
 
 ## Implementations
-Just a quick view about my implementation of the Pluto Rover. In `PlutoRover.Library` there is the implementation of the logic for the rover. This library implements `PlutoRover.Abstraction`: here I define all **interfaces** for the library. Why?
+Just a quick view about my implementation of the Pluto Rover. All project is created in `.NET Core 2`. In `PlutoRover.Library` there is the implementation of the logic for the rover. This library implements `PlutoRover.Abstraction`: here I define all **interfaces** for the library. Why?
 
 ![Library schema](https://github.com/erossini/PlutoRover/blob/master/Images/LibrarySchema.PNG)
 
@@ -35,11 +35,25 @@ An `interface` is a `contract` between itself and any class that implements it. 
 Using interface based design concept provides `loose coupling`, `component-based programming`, `easier maintainability`, makes code base more `scalable` and makes code `reuse` much more `accessible` because implementation is separated from the interface. Interfaces add a plug and play like architecture into an applications. Interfaces help define a contract (agreement or blueprint, however you chose to define it), between your application and other objects. This indicates what sort of methods, properties and events are exposed by an object.
 
 ### Abstractions
-
-### Library
+In the `PlutoRover.Abstractions` I group all `interfaces` and `enums` shared for all projects.
 
 ### Tests
+I wrote the tests before starting coding in `TDD` prospective.
+
 ![Tests results](https://github.com/erossini/PlutoRover/blob/master/Images/TestExample.PNG)
+
+### Library
+This library implements `PlutoRover.Abstractions`. You see three:
+
+- **Commands** contains the implementations of all command for the rover.
+- **Factories** contains method for _Command_ and _Direction_
+- **Position** implements how to drive the rover
+
+In the root folder:
+
+- **Planet** to define what kind of planet is Pluto
+- **RobotController** drives the robot and detects collisions
+- **RobotQueueCommandRunner** runs all command for the robot
 
 ### ConsoleApp
 ![Pluto Rover ConsoleApp](https://github.com/erossini/PlutoRover/blob/master/Images/Screenshot.PNG)
