@@ -1,5 +1,5 @@
-# PlutoRover
-![Pluto Rover](https://github.com/erossini/PlutoRover/blob/master/PlutoRover.jpg)
+﻿# PlutoRover
+![Pluto Rover](https://github.com/erossini/PlutoRover/Images/blob/master/PlutoRover.jpg)
 After NASA’s New Horizon successfully flew past Pluto, they now plan to land a Pluto Rover to further investigate the surface.
 
 You are responsible for developing an API that will allow the Rover to move around the planet. 
