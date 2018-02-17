@@ -27,5 +27,8 @@ Given the command **FFRFF** would put the rover at 2,2 facing East.
 
 ## Implementations
 
-## ConsoleApp
+### Tests
+![Tests results](https://github.com/erossini/PlutoRover/blob/master/Images/TestExample.PNG)
+
+### ConsoleApp
 ![Pluto Rover ConsoleApp](https://github.com/erossini/PlutoRover/blob/master/Images/Screenshot.PNG)
